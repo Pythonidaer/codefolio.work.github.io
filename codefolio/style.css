@@ -1,0 +1,150 @@
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body {
+    color: #666666;
+    background-color: #f9f8f6;
+    background-image: url("images.css/background.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #999;
+    background-color: #ffffff;
+}
+
+header {
+    height: 180px;
+    background-color: #999999;
+    /* background-image: url("images.css/samplehead.jpg");
+    background-repeat: no-repeat; The Chapter on HTMl5 Layout actually has Yoko's Kitchen as the photo which is why mine looks like garbage. */
+}
+
+h1 {
+   /* text-indent: -9999px; this isn't needed since we actually want to show the h1 element. */
+    width: 940px;
+    height: 130px;
+    margin: 0px;
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    color: #ffffff;
+    font-size: 2.5em;
+}
+
+#reformat {
+    height: 195px;
+    width: 290px;
+}
+
+nav, footer {
+    clear: both;
+    color: #efefef;
+    background-color:#aeaca8;
+    height: 50px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 15px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 40px;
+    margin-left: 120px;
+}
+
+nav li a {
+    color:#000;
+    text-decoration: none;
+}
+
+nav li a:hover, nav li a.current {
+    color:coral;
+}
+
+section.sample1 {
+    margin-top: 0px;
+    float: left;
+    width: 659px;
+    border-right: 1px solid #eee;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+
+hgroup {
+    margin-top: 40px;
+}
+
+figure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #eee;
+}
+
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+
+aside {
+    width: 230px;
+    float: left;
+    padding: 0px 0px 0px 20px;
+}
+
+aside section a {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+    color:aqua;
+    background-color:cornflowerblue;
+}
+
+a {
+    color: #de6581;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h2 {
+    margin: 10px 0px 5px 0px;
+    padding: 0px;
+}
+
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: #d36581;
+}
+
+aside h2 {
+    padding: 30px 0px 10px 0px;
+    color: #de6581;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    padding: 7px 0px 0px 10px;
+    line-height: 40px;
+}
